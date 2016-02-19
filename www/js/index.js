@@ -11,12 +11,7 @@ var app = {
         document.addEventListener('backbutton', this.onBackButton, false);
         deviceList.addEventListener('click', this.connect, false);
         refreshButton.addEventListener('click', this.refreshDeviceList, false);
-        // button_1.addEventListener('click', this.turnOn, false);
-        // button_2.addEventListener('click', this.turnOn, false);
-        // button_3.addEventListener('click', this.turnOn, false);
-        // button_4.addEventListener('click', this.turnOn, false);
-        // button_5.addEventListener('click', this.turnOn, false);
-        // // onButton.addEventListener('click', this.switchOn, false);
+        // onButton.addEventListener('click', this.switchOn, false);
         // offButton.addEventListener('click', this.switchOff, false);
         disconnectButton.addEventListener('click', this.disconnect, false);
     },
